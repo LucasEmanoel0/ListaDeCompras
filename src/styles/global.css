@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+
+  --color-primary: #F4F5FB;
+  --color-brandy:#CA3884;
+  --border-primary:#D1D5DB;
+  --border-hover:#B9C2D0;
+
+
+
+  --font-family: "Inter", sans-serif;
+  --title: bold 24px/36% var(--font-family);
+}
+body{
+  background-color: var( --color-primary);
+}

@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1{
+    margin-top: 60px;
+}
+form{
+    width: 627px;
+    margin-top: 60px;
+    display: flex;
+    gap: 10px;
+}
+input{
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--color-primary);
+    border: 1px solid var(--border-primary);
+}
+input:hover{
+    border: 1px solid var(--color-brandy);
+}
+#button-form{
+    width: 144px;
+    border-radius: 15px;
+    background-color: var(--color-brandy);
+    color: white;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}

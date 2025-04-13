@@ -1,0 +1,25 @@
+.container{
+    margin-top: 30px;
+    width: 627px;
+    height: 47px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    background-color: aqua;
+}
+.info{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+#img-section:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+
+}
+#img-check{
+    cursor: pointer;
+}
